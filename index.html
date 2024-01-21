@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="flex flex-row items-center w-full px-4 py-3 shadow-md shadow-gray-200"
+    >
+      <img
+        src="./media/images/img1.svg"
+        width="65"
+        class="absolute left-10 top-0 md:flex hidden sm:hidden"
+        alt="left"
+      />
+      <nav
+        class="flex flex-row items-center justify-between md:w-[80%] w-full px-6 mx-auto"
+      >
+        <img src="./media/images/logo.svg" width="200" alt="logo" />
+        <ul
+          class="lg:flex flex-row items-center space-x-2 md:hidden sm:hidden hidden"
+        >
+          <li
+            class="text-center px-4 py-2 transition-all cursor-pointer rounded-xl active bg-gradient-to-r from-[#27C3A7] to-[#4BBF49] hover:bg-gradient-to-l"
+          >
+            <a href="#" class="text-medium text-md text-gray-100">Home</a>
+          </li>
+          <li
+            class="text-center cursor-pointer px-4 py-2 transition-all rounded-xl hover:bg-gray-200"
+          >
+            <a href="#" class="text-medium text-md text-[#646977]">Features</a>
+          </li>
+          <li
+            class="text-center cursor-pointer px-4 py-2 transition-all rounded-xl hover:bg-gray-200"
+          >
+            <a href="#" class="text-medium text-md text-[#646977]">Pricing</a>
+          </li>
+          <li
+            class="text-center cursor-pointer px-4 py-2 transition-all rounded-xl hover:bg-gray-200"
+          >
+            <a href="#" class="text-medium text-md text-[#646977]">Contact</a>
+          </li>
+          <li
+            class="text-center cursor-pointer px-4 py-2 transition-all rounded-xl hover:bg-gray-200"
+          >
+            <a href="#" class="text-medium text-md text-[#646977]">Login</a>
+          </li>
+          <a
+            href="#"
+            class="text-center px-4 py-2 transition-all cursor-pointer rounded-xl active bg-gradient-to-r from-[#795FFD] to-[#3518C9] hover:bg-gradient-to-l flex flex-row items-center justify-center space-x-1 text-white"
+          >
+            <img src="./media/images/Frame.png" width="19" alt="logo" />
+            <span>Free Signup</span>
+          </a>
+        </ul>
+      </nav>
+      <img
+        src="./media/images/right.svg"
+        class="absolute right-0 top-0 md:flex sm:hidden hidden"
+        width="100"
+        alt="left"
+      />
+    </div>
+
+    <!--                    HERO SECTION            -->
+
+    <section class="max-w-full w-full my-[55px]">
+      <div
+        class="flex flex-col items-center justify-center w-full mx-auto max-w-full px-4"
+      >
+        <h1
+          class="bg-gradient-to-r from-[#3ED6BB] to-[#785DFC] bg-clip-text text-transparent lg:text-[70px] md:text-[50px] text-[40px] font-medium md:leading-[60px] leading-10 lg:leading-[87px] text-center"
+        >
+          <strong class="font-bold">AI</strong> to write code, blogs & more
+        </h1>
+        <p
+          class="mt-[20px] mb-[14px] sm:w-[609px] w-full mx-auto max-w-full sm:text-[18px] text-[16px] text-[#646977] md:leading-[29.05px] text-center"
+        >
+          Enhance everything you do by using the latest from OpenAI to solve
+          problems, write solutions and make life easier.
+        </p>
+        <button
+          class="text-center md:font-medium md:text-[18px] text-[16px] md:px-8 md:py-3 py-2 px-4 cursor-pointer rounded-xl active bg-gradient-to-r from-[#2AC4A0] to-[#6C77EF] hover:bg-gradient-to-l flex flex-row items-center justify-center text-white transition-all"
+        >
+          <a href="#"> Get Started </a>
+        </button>
+      </div>
+      <img
+        src="./media/images/left.svg"
+        width="65"
+        class="absolute right-10 top-[15%] md:flex hidden sm:hidden"
+        alt="left"
+      />
+    </section>
+
+    <section class="sm:absolute top-[45%] w-full h-auto z-50 px-2">
+      <div
+        class="flex flex-row flex-wrap justify-between lg:w-[60%] md:w-full mx-auto w-full max-w-full bg-white shadow-normal rounded-lg"
+      >
+        <div
+          class="sm:w-[50%] w-full sm:border-r border-gray-200 py-[40px] px-[30px]"
+        >
+          <div class="flex flex-row items-center space-x-2">
+            <img src="./media/images/msg.svg" width="35" alt="left" />
+            <span class="text-[26px] text-black font-medium">Explain Code</span>
+          </div>
+          <p class="text-gray-500">
+            Explain some code based on the syntax provided
+          </p>
+          <div class="mt-4">
+            <p class="font-medium text-black text-[18px]">
+              Paste your code below:
+            </p>
+            <div class="bg-neutral-100 rounded-lg p-3 my-2 sm:w-[80%] w-full">
+              <code
+                ><span class="text-[#381BCB]">function</span>
+
+                <span class="text-[#E10000]"> HelloWorld</span
+                ><span class="text-[#000000BF]">(text){</span> <br />
+                <span class="text-[#000000BF]"
+                  >echo text ||
+                  <span class="text-[#009471]">"Hello World"</span>;</span
+                ><br />
+                <span class="text-[#000000BF]">}</span></code
+              >
+            </div>
+            <button
+              class="mt-4 text-center px-4 py-2 transition-all cursor-pointer rounded-xl active bg-gradient-to-r from-[#795FFD] to-[#3518C9] hover:bg-gradient-to-l flex flex-row items-center justify-center space-x-1 text-white"
+            >
+              <a
+                href="#"
+                class="flex flex-row items-center justify-center space-x-2"
+              >
+                <img src="./media/images/img3.png" width="19" alt="logo" />
+                <span>Enhance with AI</span>
+              </a>
+            </button>
+          </div>
+        </div>
+        <div class="sm:w-[50%] w-full py-[30px] px-[30px]">
+          <div class="flex flex-row items-center space-x-2">
+            <img
+              src="./media/images/img4.png"
+              class="h-7"
+              width="28"
+              alt="left"
+            />
+            <span class="text-[26px] text-black font-medium"
+              >What does this code do?</span
+            >
+          </div>
+          <p class="text-gray-500">The following code does:</p>
+
+          <ul class="flex flex-col mt-2">
+            <li class="flex flex-row space-x-4">
+              <img
+                src="./media/images/img5.png"
+                class="h-6"
+                width="25"
+                alt="left"
+              />
+              <span class="text-[15px] text-neutral-600"
+                >The code above is a function definition.</span
+              >
+            </li>
+            <div class="h-[1px] bg-gray-200 w-full my-2"></div>
+            <li class="flex flex-row space-x-4">
+              <img
+                src="./media/images/img5.png"
+                class="h-6"
+                width="25"
+                alt="left"
+              />
+              <span class="text-[15px] text-neutral-600"
+                >It defines a new function called `HelloWorld` that takes a
+                single argument called `text`</span
+              >
+            </li>
+            <div class="h-[1px] bg-gray-200 w-full my-2"></div>
+            <li class="flex flex-row space-x-4">
+              <img
+                src="./media/images/img5.png"
+                class="h-6"
+                width="25"
+                alt="left"
+              />
+              <span class="text-[15px] text-neutral-600"
+                >The body of the function is a single line of code that prints
+                out the value of `text` if it is defined, or `Hello World` if it
+                is not defined.</span
+              >
+            </li>
+          </ul>
+          <button
+            class="mt-6 text-center px-4 py-2 transition-all cursor-pointer rounded-xl active bg-[#F3F3F3] flex flex-row items-center justify-center space-x-1 text-[#535353]"
+          >
+            <a
+              href="#"
+              class="flex flex-row items-center justify-center space-x-2"
+            >
+              <img src="./media/images/img2.png" width="20" alt="logo" />
+              <span>Copy Output</span>
+            </a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- #785EFD, #371BCB -->
+    <section
+      class="bg-gradient-to-r from-[#785EFD] to-[#371BCB] w-full max-w-full relative py-10 px-4 sm:mt-[300px] mt-10"
+    >
+      <img
+        src="./media/images/left2.svg"
+        width="165"
+        class="absolute left-0 -top-32 md:flex hidden sm:hidden"
+        alt="left"
+      />
+      <div
+        class="flex flex-row flex-wrap items-center justify-center space-x-3 sm:mt-[100px]"
+      >
+        <button
+          class="mt-4 text-center px-4 py-2 transition-all cursor-pointer rounded-xl active bg-white flex flex-row items-center justify-center text-[#381BCB]"
+        >
+          <a
+            href="#"
+            class="flex flex-row items-center justify-center space-x-1"
+          >
+            <img src="./media/images/frame2.png" width="19" alt="logo" />
+            <span class="font-medium">Explain Code</span>
+          </a>
+        </button>
+        <button
+          class="mt-4 text-center px-4 py-2 cursor-pointer rounded-xl active bg-[#A998FF] hover:bg-gray-100 transition-all flex flex-row items-center justify-center text-[#1F00BB]"
+        >
+          <a
+            href="#"
+            class="flex flex-row items-center justify-center space-x-1"
+          >
+            <img src="./media/images/img7.svg" width="24" alt="logo" />
+            <span class="font-medium">Regex</span>
+          </a>
+        </button>
+        <button
+          class="mt-4 text-center px-4 py-2 cursor-pointer rounded-xl active bg-[#A998FF] hover:bg-gray-100 transition-all flex flex-row items-center justify-center text-[#1F00BB]"
+        >
+          <a
+            href="#"
+            class="flex flex-row items-center justify-center space-x-1"
+          >
+            <img src="./media/images/frame3.png" width="20" alt="logo" />
+            <span class="font-medium">Convert Code</span>
+          </a>
+        </button>
+        <button
+          class="mt-4 text-center px-4 py-2 cursor-pointer rounded-xl active bg-[#A998FF] hover:bg-gray-100 transition-all flex flex-row items-center justify-center text-[#1F00BB]"
+        >
+          <a
+            href="#"
+            class="flex flex-row items-center justify-center space-x-1"
+          >
+            <img src="./media/images/frame4.png" width="20" alt="logo" />
+            <span class="font-medium">Fix Grammar</span>
+          </a>
+        </button>
+        <button
+          class="mt-4 text-center px-4 py-2 cursor-pointer rounded-xl active bg-[#A998FF] hover:bg-gray-100 transition-all flex flex-row items-center justify-center text-[#1F00BB]"
+        >
+          <a
+            href="#"
+            class="flex flex-row items-center justify-center space-x-1"
+          >
+            <img src="./media/images/Frame5.png" width="20" alt="logo" />
+            <span class="font-medium">Todo</span>
+          </a>
+        </button>
+        <img
+          src="./media/images/openai.svg"
+          width="130"
+          class="mt-4 cursor-pointer"
+          alt="logo"
+        />
+      </div>
+      <div
+        class="flex sm:flex-row flex-col items-center sm:justify-between justify-center md:w-[45%] w-full px-1 mt-1 mx-auto max-w-full"
+      >
+        <span class="text-[#A998FF] text-[16px] font-normal"
+          >Examples of AI for Programming</span
+        >
+        <span class="text-[#A998FF] text-[16px] font-normal"
+          >Examples of AI for Content</span
+        >
+        <span class="text-[#A998FF] text-[16px] font-normal">Powered By</span>
+      </div>
+      <button
+        class="mt-10 mx-auto w-auto text-center px-8 py-3 transition-all cursor-pointer rounded-xl active bg-white hover:bg-gray-200 flex flex-row items-center justify-center space-x-1 text-[#381BCB] font-medium"
+      >
+        <a href="#" class="flex flex-row items-center space-x-1">
+          <img src="./media/images/Frame6.png" width="19" alt="logo" />
+          <span>Free Signup</span>
+        </a>
+      </button>
+
+      <div class="relative mt-20 mb-10">
+        <img
+          src="./media/images/img8.svg"
+          class="absolute right-0 -top-10 md:flex sm:hidden hidden"
+          width="200"
+          alt="left"
+        />
+        <img
+          src="./media/images/frame11.svg"
+          class="absolute left-10 top-20 md:flex sm:hidden hidden"
+          width="200"
+          alt="left"
+        />
+        <div class="mt-10">
+          <h1
+            class="bg-gradient-to-r from-[#38FFDC] to-[#FFE44B] bg-clip-text text-transparent lg:text-[50px] md:text-[32px] text-[20px] font-medium md:leading-[60px] leading-10 lg:leading-[87px] text-center"
+          >
+            Use the latest <strong class="font-bold">AI</strong> features
+          </h1>
+          <p
+            class="text-[18px] text-white w-full max-w-full md:w-[30%] mx-auto text-center"
+          >
+            Start enhancing a range of tasks using AI, from writing emails,
+            code, or blogs, to rephrasing paragraph’s you just want to reword!
+          </p>
+        </div>
+
+        <div
+          class="my-10 flex flex-wrap flex-row items-center justify-center gap-4 xl:w-[50%] lg-w-full md:w-full max-w-full mx-auto"
+        >
+          <div
+            class="bg-white hover:bg-gray-200 transition-all py-[10px] pb-4 px-[20px] rounded-2xl"
+          >
+            <div class="flex flex-row items-center space-x-2">
+              <img src="./media/images/msg.svg" width="40" alt="left" />
+              <div class="flex flex-col">
+                <span class="text-[#515151] text-sm">Content</span>
+                <h3 class="text-[22px] text-black font-medium">Explain Code</h3>
+                <p class="text-neutral-500 text-sm md:w-[90%] w-full">
+                  Explain some code based on the syntax provided
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white hover:bg-gray-200 transition-all py-[10px] pb-4 px-[20px] rounded-2xl"
+          >
+            <div class="flex flex-row items-center space-x-2">
+              <img src="./media/images/msg.svg" width="40" alt="left" />
+              <div class="flex flex-col">
+                <span class="text-[#515151] text-sm">Content</span>
+                <h3 class="text-[22px] text-black font-medium">Explain Code</h3>
+                <p class="text-neutral-500 text-sm md:w-[90%] w-full">
+                  Explain some code based on the syntax provided
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white hover:bg-gray-200 transition-all py-[10px] pb-4 px-[20px] rounded-2xl"
+          >
+            <div class="flex flex-row items-center space-x-2">
+              <img src="./media/images/msg.svg" width="40" alt="left" />
+              <div class="flex flex-col">
+                <span class="text-[#515151] text-sm">Content</span>
+                <h3 class="text-[22px] text-black font-medium">Explain Code</h3>
+                <p class="text-neutral-500 text-sm md:w-[90%] w-full">
+                  Explain some code based on the syntax provided
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white hover:bg-gray-200 transition-all py-[10px] pb-4 px-[20px] rounded-2xl"
+          >
+            <div class="flex flex-row items-center space-x-2">
+              <img src="./media/images/msg.svg" width="40" alt="left" />
+              <div class="flex flex-col">
+                <span class="text-[#515151] text-sm">Content</span>
+                <h3 class="text-[22px] text-black font-medium">Explain Code</h3>
+                <p class="text-neutral-500 text-sm md:w-[90%] w-full">
+                  Explain some code based on the syntax provided
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white hover:bg-gray-200 transition-all py-[10px] pb-4 px-[20px] rounded-2xl"
+          >
+            <div class="flex flex-row items-center space-x-2">
+              <img src="./media/images/msg.svg" width="40" alt="left" />
+              <div class="flex flex-col">
+                <span class="text-[#515151] text-sm">Content</span>
+                <h3 class="text-[22px] text-black font-medium">Explain Code</h3>
+                <p class="text-neutral-500 text-sm md:w-[90%] w-full">
+                  Explain some code based on the syntax provided
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-white hover:bg-gray-200 transition-all py-[10px] pb-4 px-[20px] rounded-2xl"
+          >
+            <div class="flex flex-row items-center space-x-2">
+              <img src="./media/images/msg.svg" width="40" alt="left" />
+              <div class="flex flex-col">
+                <span class="text-[#515151] text-sm">Content</span>
+                <h3 class="text-[22px] text-black font-medium">Explain Code</h3>
+                <p class="text-neutral-500 text-sm md:w-[90%] w-full">
+                  Explain some code based on the syntax provided
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+<!-- #795FFD, #3518C9 -->
